@@ -2,6 +2,10 @@ using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using InDepthRecommendation.Rest.Api;
 using InDepthRecommendation.Services.Settings;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
