@@ -35,3 +35,8 @@ D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Rest.A
 D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Rest.Api\obj\Debug\net8.0\InDepthRecommendation.Rest.Api.pdb
 D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Rest.Api\obj\Debug\net8.0\InDepthRecommendation.Rest.Api.genruntimeconfig.cache
 D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Rest.Api\obj\Debug\net8.0\ref\InDepthRecommendation.Rest.Api.dll
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Rest.Api\bin\Debug\net8.0\InDepthRecommendation.Rest.Api.Contracts.dll
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Rest.Api\bin\Debug\net8.0\InDepthRecommendation.Services.dll
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Rest.Api\bin\Debug\net8.0\InDepthRecommendation.Services.pdb
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Rest.Api\bin\Debug\net8.0\InDepthRecommendation.Rest.Api.Contracts.pdb
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Rest.Api\obj\Debug\net8.0\InDepthRecommendation.Rest.Api.sourcelink.json

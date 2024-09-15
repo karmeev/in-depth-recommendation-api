@@ -7,14 +7,30 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "InDepthRecommendation.Facade/1.0.0": {
+        "dependencies": {
+          "InDepthRecommendation.Rest.Api.Contracts": "1.0.0"
+        },
         "runtime": {
           "InDepthRecommendation.Facade.dll": {}
+        }
+      },
+      "InDepthRecommendation.Rest.Api.Contracts/1.0.0": {
+        "runtime": {
+          "InDepthRecommendation.Rest.Api.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
   },
   "libraries": {
     "InDepthRecommendation.Facade/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InDepthRecommendation.Rest.Api.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

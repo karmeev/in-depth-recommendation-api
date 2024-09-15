@@ -11,6 +11,7 @@
           "Autofac": "8.1.0",
           "Autofac.Extensions.DependencyInjection": "10.0.0",
           "InDepthRecommendation.Facade": "1.0.0",
+          "InDepthRecommendation.Services": "1.0.0",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
@@ -97,8 +98,30 @@
       },
       "System.Diagnostics.DiagnosticSource/8.0.1": {},
       "InDepthRecommendation.Facade/1.0.0": {
+        "dependencies": {
+          "InDepthRecommendation.Rest.Api.Contracts": "1.0.0"
+        },
         "runtime": {
           "InDepthRecommendation.Facade.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "InDepthRecommendation.Rest.Api.Contracts/1.0.0": {
+        "runtime": {
+          "InDepthRecommendation.Rest.Api.Contracts.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "InDepthRecommendation.Services/1.0.0": {
+        "dependencies": {
+          "Autofac": "8.1.0"
+        },
+        "runtime": {
+          "InDepthRecommendation.Services.dll": {
             "assemblyVersion": "1.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -183,6 +206,16 @@
       "hashPath": "system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512"
     },
     "InDepthRecommendation.Facade/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InDepthRecommendation.Rest.Api.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "InDepthRecommendation.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
