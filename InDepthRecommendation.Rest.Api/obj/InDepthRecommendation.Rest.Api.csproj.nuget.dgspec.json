@@ -92,6 +92,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\Development\\Projects\\in-depth-recommendation-api\\InDepthRecommendation.Data\\InDepthRecommendation.Data.csproj": {
+                "projectPath": "D:\\Development\\Projects\\in-depth-recommendation-api\\InDepthRecommendation.Data\\InDepthRecommendation.Data.csproj"
+              },
               "D:\\Development\\Projects\\in-depth-recommendation-api\\InDepthRecommendation.Rest.Api.Contracts\\InDepthRecommendation.Rest.Api.Contracts.csproj": {
                 "projectPath": "D:\\Development\\Projects\\in-depth-recommendation-api\\InDepthRecommendation.Rest.Api.Contracts\\InDepthRecommendation.Rest.Api.Contracts.csproj"
               }

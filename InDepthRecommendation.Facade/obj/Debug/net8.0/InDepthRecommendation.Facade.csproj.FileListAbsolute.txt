@@ -14,3 +14,9 @@ D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade
 D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\obj\Debug\net8.0\InDepthRecommendation.Facade.csproj.AssemblyReference.cache
 D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\obj\Debug\net8.0\InDepthRecommendation.Facade.sourcelink.json
 D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\obj\Debug\net8.0\InDepthR.AC0A5477.Up2Date
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\bin\Debug\net8.0\InDepthRecommendation.Data.dll
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\bin\Debug\net8.0\InDepthRecommendation.Models.dll
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\bin\Debug\net8.0\InDepthRecommendation.Services.dll
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\bin\Debug\net8.0\InDepthRecommendation.Data.pdb
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\bin\Debug\net8.0\InDepthRecommendation.Models.pdb
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\bin\Debug\net8.0\InDepthRecommendation.Services.pdb

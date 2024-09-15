@@ -2,5 +2,5 @@
 
 public class UserAction
 {
-    
+    public string Action { get; set; }
 }
