@@ -1,8 +1,6 @@
-﻿using System.Threading.Tasks;
-using InDepthRecommendation.Facade.Contracts;
+﻿using InDepthRecommendation.Facade.Contracts;
 using InDepthRecommendation.Rest.Api.Contracts.Requests;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
 
 namespace InDepthRecommendation.Rest.Api.Controllers;
 

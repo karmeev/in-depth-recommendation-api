@@ -1,5 +1,4 @@
-﻿using InDepthRecommendation.Data.Contracts;
-using InDepthRecommendation.Models.Contracts;
+﻿using InDepthRecommendation.Models.Contracts;
 using InDepthRecommendation.Services.Settings;
 using MongoDB.Driver;
 

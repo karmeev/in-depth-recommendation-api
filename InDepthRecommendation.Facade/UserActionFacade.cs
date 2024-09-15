@@ -1,5 +1,4 @@
-﻿using System.Threading.Tasks;
-using InDepthRecommendation.Data.Contracts.Repositories;
+﻿using InDepthRecommendation.Data.Contracts.Repositories;
 using InDepthRecommendation.Data.Repositories;
 using InDepthRecommendation.Facade.Contracts;
 using InDepthRecommendation.Models;
