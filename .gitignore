@@ -12,7 +12,7 @@
 *.DS_Store
 docker-compose.override.yml 
 
-InDepthRecommendation.Rest.Api/appsettings.Development.json
+**/**/appsettings.Development.json
 **/bin
 /InDepthRecommendation.Rest.Api/bin/
 /InDepthRecommendation.Models/bin/

@@ -1,5 +1,4 @@
-﻿using System.Threading.Tasks;
-using InDepthRecommendation.Rest.Api.Contracts.Requests;
+﻿using InDepthRecommendation.Rest.Api.Contracts.Requests;
 
 namespace InDepthRecommendation.Facade.Contracts;
 

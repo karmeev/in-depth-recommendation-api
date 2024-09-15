@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using InDepthRecommendation.Data.ClassMaps;
 using InDepthRecommendation.Data.Contracts;
 using InDepthRecommendation.Data.Contracts.Repositories;
 using InDepthRecommendation.Data.DbContexts;
@@ -12,6 +13,7 @@ public static class ContainerConfiguration
     {
         builder.RegisterType<DbContext>().As<IDbContext>();
         builder.RegisterType<MongoDbContext>().AsSelf().InstancePerLifetimeScope();
+        BsonClassMapExtension.RegisterClassMap();
         
         builder.RegisterRepositories();
     }
