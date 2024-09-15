@@ -12,6 +12,14 @@
 *.DS_Store
 docker-compose.override.yml 
 **/InDepthRecommendation.Rest.Api/appsettings.Development.json
+**/InDepthRecommendation.Rest.Api/bin
+**/InDepthRecommendation.Rest.Api/obj
+**/InDepthRecommendation.Models/bin
+**/InDepthRecommendation.Models/obj
+**/InDepthRecommendation.Facade/bin
+**/InDepthRecommendation.Facade/obj
+**/InDepthRecommendation.Data/bin
+**/InDepthRecommendation.Data/obj
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
