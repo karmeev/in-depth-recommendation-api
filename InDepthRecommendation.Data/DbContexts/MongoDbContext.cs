@@ -1,4 +1,5 @@
 ﻿using InDepthRecommendation.Data.Contracts;
+using InDepthRecommendation.Models.Contracts;
 using InDepthRecommendation.Services.Settings;
 using MongoDB.Driver;
 
@@ -21,7 +22,9 @@ public class MongoDbContext
     }
 
     public IMongoCollection<T> GetCollection<T>()
+    where T: IEntity
     {
-        return MongoDatabase.GetCollection<T>(nameof(T));
+        var entityName = typeof(T).Name;
+        return MongoDatabase.GetCollection<T>(entityName);
     }
 }

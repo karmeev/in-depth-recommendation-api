@@ -1,20 +1,15 @@
 ﻿using InDepthRecommendation.Data.Contracts;
+using InDepthRecommendation.Models.Contracts;
 using MongoDB.Driver;
 
 namespace InDepthRecommendation.Data.DbContexts;
 
-public class DbContext: IDbContext
+public class DbContext(MongoDbContext mongoDbContext) : IDbContext
 {
-    private readonly MongoDbContext _mongoDbContext;
-
-    public DbContext(MongoDbContext mongoDbContext)
+    public async Task<IMongoCollection<TEntity>> WriteAsync<TEntity>()
+    where TEntity: IEntity
     {
-        _mongoDbContext = mongoDbContext;
-    }
-
-    public async Task<IMongoCollection<T>> WriteAsync<T>()
-    {
-        await _mongoDbContext.StartSession();
-        return _mongoDbContext.GetCollection<T>();
+        await mongoDbContext.StartSession();
+        return mongoDbContext.GetCollection<TEntity>();
     }
 }
