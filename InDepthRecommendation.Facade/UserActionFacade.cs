@@ -1,12 +1,22 @@
-﻿using InDepthRecommendation.Facade.Contracts;
+﻿using InDepthRecommendation.Data.Contracts.Repositories;
+using InDepthRecommendation.Data.Repositories;
+using InDepthRecommendation.Facade.Contracts;
+using InDepthRecommendation.Models;
 using InDepthRecommendation.Rest.Api.Contracts.Requests;
 
 namespace InDepthRecommendation.Facade;
 
-public class UserActionFacade: IUserActionFacade
+public class UserActionFacade(RepositoryManager repositoryManager) 
+    : AbstractFacade(repositoryManager), IUserActionFacade
 {
     public async Task AddAction(AddUserActionRequest request)
     {
-        await Task.CompletedTask;
+        var model = new UserAction
+        {
+            Action = "click"
+        };
+
+        var repository = RepositoryManager.GetRepository<IUserActionRepository>();
+        await repository.InsertAction(model);
     }
 }

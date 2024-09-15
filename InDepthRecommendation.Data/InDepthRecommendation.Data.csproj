@@ -6,4 +6,13 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="MongoDB.Driver" Version="2.28.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\InDepthRecommendation.Models\InDepthRecommendation.Models.csproj" />
+      <ProjectReference Include="..\InDepthRecommendation.Services\InDepthRecommendation.Services.csproj" />
+    </ItemGroup>
+
 </Project>

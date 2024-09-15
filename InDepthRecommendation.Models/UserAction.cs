@@ -1,6 +1,8 @@
-﻿namespace InDepthRecommendation.Models;
+﻿using InDepthRecommendation.Models.Contracts;
 
-public class UserAction
+namespace InDepthRecommendation.Models;
+
+public class UserAction: IEntity
 {
-    
+    public string Action { get; set; }
 }
