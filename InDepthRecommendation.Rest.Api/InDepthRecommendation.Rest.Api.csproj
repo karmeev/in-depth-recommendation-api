@@ -15,6 +15,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\InDepthRecommendation.Facade\InDepthRecommendation.Facade.csproj" />
+      <ProjectReference Include="..\InDepthRecommendation.Services\InDepthRecommendation.Services.csproj" />
     </ItemGroup>
 
 </Project>
