@@ -11,6 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\InDepthRecommendation.Models\InDepthRecommendation.Models.csproj" />
       <ProjectReference Include="..\InDepthRecommendation.Services\InDepthRecommendation.Services.csproj" />
     </ItemGroup>
 

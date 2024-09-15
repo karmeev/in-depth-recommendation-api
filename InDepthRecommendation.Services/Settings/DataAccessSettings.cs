@@ -2,5 +2,5 @@
 
 public class DataAccessSettings
 {
-    public string MongoConnectionString { get; set; }
+    public string MongoConnectionString { get; set; } = string.Empty;
 }

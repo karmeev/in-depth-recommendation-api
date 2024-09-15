@@ -14,6 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\InDepthRecommendation.Data\InDepthRecommendation.Data.csproj" />
       <ProjectReference Include="..\InDepthRecommendation.Facade\InDepthRecommendation.Facade.csproj" />
       <ProjectReference Include="..\InDepthRecommendation.Services\InDepthRecommendation.Services.csproj" />
     </ItemGroup>

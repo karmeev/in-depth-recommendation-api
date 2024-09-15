@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using InDepthRecommendation.Data;
 using InDepthRecommendation.Facade;
 using InDepthRecommendation.Facade.Contracts;
 using InDepthRecommendation.Rest.Api.Controllers;
@@ -14,6 +15,7 @@ public static class ContainerConfiguration
         containerBuilder.RegisterControllers();
         containerBuilder.RegisterFacades();
         containerBuilder.ConfigureContainerSettings(settings);
+        containerBuilder.RegisterDataAccessLayer();
     }
 
     private static void RegisterControllers(this ContainerBuilder builder)

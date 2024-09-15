@@ -325,6 +325,16 @@
           "lib/net7.0/ZstdSharp.dll": {}
         }
       },
+      "InDepthRecommendation.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/InDepthRecommendation.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InDepthRecommendation.Models.dll": {}
+        }
+      },
       "InDepthRecommendation.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -875,6 +885,11 @@
         "zstdsharp.port.nuspec"
       ]
     },
+    "InDepthRecommendation.Models/1.0.0": {
+      "type": "project",
+      "path": "../InDepthRecommendation.Models/InDepthRecommendation.Models.csproj",
+      "msbuildProject": "../InDepthRecommendation.Models/InDepthRecommendation.Models.csproj"
+    },
     "InDepthRecommendation.Services/1.0.0": {
       "type": "project",
       "path": "../InDepthRecommendation.Services/InDepthRecommendation.Services.csproj",
@@ -883,6 +898,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "InDepthRecommendation.Models >= 1.0.0",
       "InDepthRecommendation.Services >= 1.0.0",
       "MongoDB.Driver >= 2.28.0"
     ]
@@ -912,6 +928,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "D:\\Development\\Projects\\in-depth-recommendation-api\\InDepthRecommendation.Models\\InDepthRecommendation.Models.csproj": {
+              "projectPath": "D:\\Development\\Projects\\in-depth-recommendation-api\\InDepthRecommendation.Models\\InDepthRecommendation.Models.csproj"
+            },
             "D:\\Development\\Projects\\in-depth-recommendation-api\\InDepthRecommendation.Services\\InDepthRecommendation.Services.csproj": {
               "projectPath": "D:\\Development\\Projects\\in-depth-recommendation-api\\InDepthRecommendation.Services\\InDepthRecommendation.Services.csproj"
             }
