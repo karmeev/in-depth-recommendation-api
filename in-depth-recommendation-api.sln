@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InDepthRecommendation.Rest.Api", "InDepthRecommendation.Rest.Api\InDepthRecommendation.Rest.Api.csproj", "{EBFA8D60-DFDD-464A-BD41-0A8631D4885E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InDepthRecommendation.Facade", "InDepthRecommendation.Facade\InDepthRecommendation.Facade.csproj", "{A63D2EF2-6D8B-4B6D-B7B0-B54837D9A05F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InDepthRecommendation.Services", "InDepthRecommendation.Services\InDepthRecommendation.Services.csproj", "{0D7E1449-DE9C-4245-8034-5CDEFDCBCF5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InDepthRecommendation.Data", "InDepthRecommendation.Data\InDepthRecommendation.Data.csproj", "{47E62A05-9B06-4C1F-9E3E-0611A3A11AF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InDepthRecommendation.Models", "InDepthRecommendation.Models\InDepthRecommendation.Models.csproj", "{54BA3CA4-29F7-4F6C-84E5-CFEAD489A40C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InDepthRecommendation.Rest.Api.Contracts", "InDepthRecommendation.Rest.Api.Contracts\InDepthRecommendation.Rest.Api.Contracts.csproj", "{3D1B975E-CFB2-4CB5-ABB3-8FE1AC072F6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBFA8D60-DFDD-464A-BD41-0A8631D4885E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBFA8D60-DFDD-464A-BD41-0A8631D4885E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBFA8D60-DFDD-464A-BD41-0A8631D4885E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBFA8D60-DFDD-464A-BD41-0A8631D4885E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63D2EF2-6D8B-4B6D-B7B0-B54837D9A05F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63D2EF2-6D8B-4B6D-B7B0-B54837D9A05F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63D2EF2-6D8B-4B6D-B7B0-B54837D9A05F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63D2EF2-6D8B-4B6D-B7B0-B54837D9A05F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D7E1449-DE9C-4245-8034-5CDEFDCBCF5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D7E1449-DE9C-4245-8034-5CDEFDCBCF5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D7E1449-DE9C-4245-8034-5CDEFDCBCF5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D7E1449-DE9C-4245-8034-5CDEFDCBCF5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47E62A05-9B06-4C1F-9E3E-0611A3A11AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47E62A05-9B06-4C1F-9E3E-0611A3A11AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47E62A05-9B06-4C1F-9E3E-0611A3A11AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47E62A05-9B06-4C1F-9E3E-0611A3A11AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BA3CA4-29F7-4F6C-84E5-CFEAD489A40C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BA3CA4-29F7-4F6C-84E5-CFEAD489A40C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BA3CA4-29F7-4F6C-84E5-CFEAD489A40C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BA3CA4-29F7-4F6C-84E5-CFEAD489A40C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1B975E-CFB2-4CB5-ABB3-8FE1AC072F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1B975E-CFB2-4CB5-ABB3-8FE1AC072F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1B975E-CFB2-4CB5-ABB3-8FE1AC072F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1B975E-CFB2-4CB5-ABB3-8FE1AC072F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\bin\Debug\net8.0\InDepthRecommendation.Facade.deps.json
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\bin\Debug\net8.0\InDepthRecommendation.Facade.dll
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\bin\Debug\net8.0\InDepthRecommendation.Facade.pdb
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\obj\Debug\net8.0\InDepthRecommendation.Facade.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\obj\Debug\net8.0\InDepthRecommendation.Facade.AssemblyInfoInputs.cache
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\obj\Debug\net8.0\InDepthRecommendation.Facade.AssemblyInfo.cs
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\obj\Debug\net8.0\InDepthRecommendation.Facade.csproj.CoreCompileInputs.cache
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\obj\Debug\net8.0\InDepthRecommendation.Facade.dll
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\obj\Debug\net8.0\refint\InDepthRecommendation.Facade.dll
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\obj\Debug\net8.0\InDepthRecommendation.Facade.pdb
+D:\Development\Projects\in-depth-recommendation-api\InDepthRecommendation.Facade\obj\Debug\net8.0\ref\InDepthRecommendation.Facade.dll
