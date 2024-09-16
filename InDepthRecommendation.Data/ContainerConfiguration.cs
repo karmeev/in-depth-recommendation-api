@@ -11,8 +11,9 @@ public static class ContainerConfiguration
 {
     public static void RegisterDataAccessLayer(this ContainerBuilder builder)
     {
-        builder.RegisterType<DbContext>().As<IDbContext>();
-        builder.RegisterType<MongoDbContext>().AsSelf().InstancePerLifetimeScope();
+        builder.RegisterType<DbContext>().As<IDbContext>().InstancePerLifetimeScope();
+        builder.RegisterType<MongoDbContext>().AsSelf();
+        builder.RegisterType<RedisDbContext>().AsSelf();
         BsonClassMapExtension.RegisterClassMap();
         
         builder.RegisterRepositories();

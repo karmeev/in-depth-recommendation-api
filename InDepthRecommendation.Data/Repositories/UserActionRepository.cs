@@ -4,18 +4,17 @@ using InDepthRecommendation.Models;
 
 namespace InDepthRecommendation.Data.Repositories;
 
-public class UserActionRepository: IUserActionRepository
+public class UserActionRepository(IDbContext dbContext) : IUserActionRepository
 {
-    private readonly IDbContext _dbContext;
-
-    public UserActionRepository(IDbContext dbContext)
-    {
-        _dbContext = dbContext;
-    }
-
     public async Task InsertAction(UserAction action)
     {
-        var collection = await _dbContext.WriteAsync<UserAction>();
+        var collection = await dbContext.WriteAsync<UserAction>();
         await collection.InsertOneAsync(action);
+    }
+
+    public async Task GetActionById(string id)
+    {
+        var collection = await dbContext.ReadAsync();
+        var value = collection.StringGet(id);
     }
 }
