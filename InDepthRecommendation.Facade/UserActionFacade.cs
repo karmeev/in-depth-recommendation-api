@@ -19,4 +19,13 @@ public class UserActionFacade(RepositoryManager repositoryManager)
         var repository = RepositoryManager.GetRepository<IUserActionRepository>();
         await repository.InsertAction(model);
     }
+    
+    public async Task GetAction()
+    {
+        //test value
+        var id = "1234-567-2";
+
+        var repository = RepositoryManager.GetRepository<IUserActionRepository>();
+        await repository.GetActionById(id);
+    }
 }

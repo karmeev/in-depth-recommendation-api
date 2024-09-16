@@ -25,4 +25,14 @@ public class UserActionsController: ApiController
         
         return CompleteControllerExecution("Add user action");
     }
+    
+    [HttpGet("get")]
+    public async Task<IActionResult> GetAction()
+    {
+        StartControllerExecution("Get user action");
+
+        await _userActionFacade.GetAction();
+        
+        return CompleteControllerExecution("Get user action");
+    }
 }
