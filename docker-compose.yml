@@ -1,0 +1,25 @@
+﻿version: '3.9'
+
+services:
+
+  mongo:
+    container_name: mongo-indepth
+    image: mongo:latest
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+  redis:
+    container_name: redis-indepth
+    image: redis:latest
+    restart: always
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+
+volumes:
+  mongo_data:
+  redis_data:
