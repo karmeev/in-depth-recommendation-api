@@ -1,4 +1,5 @@
 ﻿using InDepthRecommendation.Facade.Contracts;
+using InDepthRecommendation.Models;
 using InDepthRecommendation.Rest.Api.Contracts.Requests;
 using Microsoft.AspNetCore.Mvc;
 
@@ -17,22 +18,22 @@ public class UserActionsController: ApiController
     }
     
     [HttpPost("insert")]
-    public async Task<IActionResult> AddAction()
+    public async Task<IActionResult> AddAction([FromBody] AddUserActionRequest request)
     {
         StartControllerExecution("Add user action");
 
-        await _userActionFacade.AddAction(new AddUserActionRequest());
+        await _userActionFacade.AddAction(request);
         
-        return CompleteControllerExecution("Add user action");
+        return Complete("Add user action");
     }
     
     [HttpGet("get")]
-    public async Task<IActionResult> GetAction()
+    public async Task<IActionResult> GetAction([FromQuery] string id)
     {
         StartControllerExecution("Get user action");
 
-        await _userActionFacade.GetAction();
+        var result = await _userActionFacade.GetAction(id);
         
-        return CompleteControllerExecution("Get user action");
+        return Complete("Get user action", result);
     }
 }

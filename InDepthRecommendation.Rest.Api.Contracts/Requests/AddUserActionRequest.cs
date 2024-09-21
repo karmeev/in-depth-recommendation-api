@@ -1,3 +1,3 @@
 ﻿namespace InDepthRecommendation.Rest.Api.Contracts.Requests;
 
-public record AddUserActionRequest;
+public record AddUserActionRequest(string ActionName);
