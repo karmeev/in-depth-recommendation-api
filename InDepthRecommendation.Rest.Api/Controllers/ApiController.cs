@@ -13,13 +13,13 @@ public abstract class ApiController(ILogger logger) : ControllerBase
         Logger.Log(LogLevel.Information, $"Start; {message}");
     }
     
-    protected IActionResult CompleteControllerExecution(string message)
+    protected IActionResult Complete(string message)
     {
         Logger.Log(LogLevel.Information, $"Complete; {message}");
         return Ok();
     }
     
-    protected IActionResult CompleteControllerExecution<T>(string message, T response)
+    protected IActionResult Complete<T>(string message, T response)
     {
         Logger.Log(LogLevel.Information, $"Complete; {message}");
         return Ok(response);

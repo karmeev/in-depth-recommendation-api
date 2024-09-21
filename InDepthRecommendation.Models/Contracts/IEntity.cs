@@ -2,6 +2,6 @@
 
 public interface IEntity
 {
-    string Id { get; init; }
+    string Id { get; set; }
     Guid ETag { get; set; }
 }
